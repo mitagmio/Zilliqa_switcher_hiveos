@@ -9,7 +9,7 @@ function usage() {
 }
 
 function install {
-	wget -o zil_hive https://raw.githubusercontent.com/mitagmio/Zilliqa_switcher_hiveos/master/pool.mininghub.cc/zil_hive
+	curl -OL https://raw.githubusercontent.com/mitagmio/Zilliqa_switcher_hiveos/master/pool.mininghub.cc/zil_hive
 	cp zil_hive /hive/sbin
 	rm zil_hive
 	chmod 755 /hive/sbin/zil_hive
