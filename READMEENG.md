@@ -2,9 +2,9 @@
 # Zilliqa_switcher_hiveos
 # *Version only when purchased by the pool.*
 
-The script uses two utilities for its work cURL and JQ \
+The script uses two utilities for its work cURL and JQ
 
-#A brief description of the script:
+# A brief description of the script:
 1) on the 99 block, the main mining will stop and the miner of the Zilika will start (the block number is selected with a margin, you can change the settings for yourself) 
 2) at the end of mining on block 01, the miner of zilika closes (the block number is selected with a margin, you can change the settings for yourself) 
 3) the main miner opens
