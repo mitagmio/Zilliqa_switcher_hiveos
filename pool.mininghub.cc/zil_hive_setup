@@ -9,7 +9,7 @@ function usage() {
 }
 
 function install {
-	wget http://80.211.160.176:5000/static/script/zil_hive
+	wget https://raw.githubusercontent.com/mitagmio/Zilliqa_switcher_hiveos/master/pool.mininghub.cc/zil_hive
 	cp zil_hive /hive/sbin
 	rm zil_hive
 	chmod 755 /hive/sbin/zil_hive
