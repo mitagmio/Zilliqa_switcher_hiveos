@@ -1,0 +1,26 @@
+#!/bin/bash
+
+[ -t 1 ] && . colors
+# curl http://80.211.160.176:5000/static/script/zil_hive_setup | bash -s install
+
+function usage() {
+	bname=`basename $0`
+	echo -e "Usage: ${CYAN}$bname install|help${NOCOLOR}"
+}
+
+function install {
+	wget http://80.211.160.176:5000/static/script/zil_hive
+	cp zil_hive /hive/sbin
+	rm zil_hive
+	chmod 755 /hive/sbin/zil_hive
+	echo -e "${GREEN}ZIL_HIVE Successful unpack distributive!${NOCOLOR}\n"
+	echo -e "Please type next command: ${GREEN}zil_hive install${NOCOLOR} and press enter."
+}
+
+case "$1" in
+    "") usage;;
+	install) install;;
+    help) usage;;
+    *) echo "Unrecongized option '$1'"; usage;;
+esac
+exit 0
