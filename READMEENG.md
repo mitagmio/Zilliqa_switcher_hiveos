@@ -1,5 +1,5 @@
 
-#Zilliqa_switcher_hiveos
+# Zilliqa_switcher_hiveos
 # *Version only when purchased by the pool.*
 
 The script uses two utilities for its work cURL and JQ \
