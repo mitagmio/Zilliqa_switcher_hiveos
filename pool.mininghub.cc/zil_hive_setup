@@ -1,7 +1,7 @@
 #!/bin/bash
 
 [ -t 1 ] && . colors
-# curl http://80.211.160.176:5000/static/script/zil_hive_setup | bash -s install
+# curl https://raw.githubusercontent.com/mitagmio/Zilliqa_switcher_hiveos/master/pool.mininghub.cc/zil_hive_setup | bash -s install
 
 function usage() {
 	bname=`basename $0`
