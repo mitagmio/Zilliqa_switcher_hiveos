@@ -12,8 +12,8 @@ The script uses two utilities for its work cURL and JQ
 
 # Description of parameters inside the BAT file:
 
-StartBlock = 98 # Block after which mining Zilliqa \ is activated
-EndBlock = 01 # Block from which mining Zilliqa is turned off
+StartBlock = 98 # Block after which mining Zilliqa \ is activated\
+EndBlock = 01 # Block from which mining Zilliqa is turned off\
 
 # In the plans:
 1) It is possible to expand the Zilliqa switcher with software WatchDog to track the workload of the maps and check the availability of the Internet. 
